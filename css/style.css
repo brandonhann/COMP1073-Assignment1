@@ -1,0 +1,66 @@
+/* body/general styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f6f6f6;
+}
+
+/* text styles */
+
+h1,
+h2 {
+    color: #333;
+}
+
+p {
+    color: #696969;
+    padding-left: 5px;
+}
+
+/* button styles */
+
+button {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: none;
+    background-color: #0273ec;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0050a5;
+}
+
+/* class styling for array items */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.item {
+    flex: 1;
+    border: 1px solid #c5c5c5;
+    padding: 10px;
+    margin: 5px;
+    min-width: 120px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.item p {
+    height: 20px;
+    line-height: 20px;
+    margin: 10px 0;
+}
+
+.item button {
+    width: 100%;
+}
